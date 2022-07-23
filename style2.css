@@ -1,0 +1,115 @@
+#login {
+  background-image: url("dna2.jpg");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-size: 1537px 950px;
+
+  font-family: cursive;
+  color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  color: white;
+  background-color: rgb(217, 74, 127);
+}
+#coat2 {
+  background: linear-gradient(
+    to top right,
+    rgb(237, 129, 185),
+    rgba(165, 195, 203, 1)
+  ); /*rgb(165, 195, 203);*/
+  width: 650px;
+  height: 800px;
+  align-items: baseline;
+  display: flex;
+  justify-content: left;
+  border-radius: 15px;
+  padding-bottom: 2px;
+  margin-right: 27pt;
+  /* opacity: 0.7; */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+h1 {
+  text-align: center;
+}
+fieldset {
+  margin-top: 55pt;
+  margin-left: 15pt;
+  border-style: dashed;
+  border-color: rgb(255, 255, 255);
+
+  padding: 10px;
+  width: 550px;
+}
+textarea{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  width: 500px;
+  height: 400px;
+  font-size: large;
+  font-family: cursive;
+}
+form .form-css-Seq::before {
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  margin-right: 45pt;
+  /*background-size: cover;
+    background-repeat: no-repeat;*/
+}
+form input {
+  font-family: inherit;
+  outline: none;
+  width: 70%;
+  height: 10pt;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4a4a4a;
+  text-indent: 40px;
+  margin-bottom: 10pt;
+  margin-right: 15pt;
+}
+
+form .btn {
+  outline: none;
+  height: 25pt;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  /*margin: 0 auto;
+  padding: 0.9rem 2.5rem;*/
+  margin-top:15pt ;
+  margin-left:15pt ;
+  text-align: center;
+  background-color: rgb(217, 74, 127);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  opacity: 0.8;
+  font-family: cursive;
+  
+}

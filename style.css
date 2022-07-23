@@ -1,0 +1,225 @@
+/* #bg {
+  background-image: url("blood.jpg");
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  filter: blur(5px);
+} */
+
+#coat {
+    background: linear-gradient(to top right, rgb(237, 129, 185), rgba(165,195,203,1)); /*rgb(165, 195, 203);*/
+    width: 400px;
+    height: 270px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    border-radius: 15px;
+    padding-bottom: 2px;
+    margin-right: 27pt ;
+    /* opacity: 0.7; */
+}
+#coat2 {
+  background: linear-gradient(to top right, rgb(237, 129, 185), rgba(165,195,203,1)); /*rgb(165, 195, 203);*/
+  width: 800px;
+  height: 800px;
+  align-items:baseline;
+  display:flex;
+  justify-content:left;
+  border-radius: 15px;
+  padding-bottom: 2px;
+  margin-right: 27pt ;
+  /* opacity: 0.7; */
+}
+fieldset{
+  margin-top: 55pt;
+  margin-left: 15pt;
+  border-style: dashed;
+  border-color: rgb(255, 255, 255);
+  
+  padding:10px;
+  /*width:850px;
+*/}
+
+h1 {
+  border-radius: 15px;
+  background: #f8f6f5;
+  padding: 20px;
+  width: 400px;
+  height: 750px;
+  opacity: 0.9;
+  margin-right: 200px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-family:cursive;
+}
+
+#login {
+    background-image: url("dna2.jpg");
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-size: 1537px 950px;
+
+    font-family: cursive;
+    color: #4A4A4A;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+form {
+  width: 350px;
+  position: relative;
+}
+
+h5{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    letter-spacing: 0.8px;
+}
+form .form-css-Seq::before{
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  margin-right: 45pt;
+  /*background-size: cover;
+  background-repeat: no-repeat;*/
+}
+
+form .form-css-login::before, .form-css::before {
+  font-size: 20px;
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  color: #888888;
+  content: " ";
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+form .form-css-login:nth-child(2)::before,
+form .form-css:nth-child(1)::before{
+  background-image: url(user-icon.png);
+  width: 17px;
+  height: 17px;
+  top: 15px;
+}
+
+form .form-css-login:nth-child(3)::before, 
+.form-css:nth-child(4)::before{
+  background-image: url(lock-icon.png);
+  width: 16px;
+  height: 16px;
+}
+
+form .form-css:nth-child(2)::before{
+    background-image: url(email-icon.png);
+    width: 20px;
+    height: 20px;
+}
+
+.form-css:nth-child(3)::before {
+    background-image: url(img_icon.png);
+    width: 15px;
+    height: 18px;
+  }
+
+form .form-css-login, .form-css {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10pt;
+  position: relative;
+}
+
+form input {
+  font-family: inherit;
+  width: 100%;
+  outline: none;
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  display: block;
+  padding: 0.9rem 0.7rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  color: #4a4a4a;
+  text-indent: 40px;
+}
+
+form .btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-color: rgb(217, 74, 127);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+  opacity: 0.8;
+  font-family:cursive;
+}
+
+.error {
+
+  background: #ed8181;
+
+  padding: 10px;
+  font-weight: bold;
+
+  width: 17%;
+  text-align: center;
+
+  border-radius: 5px;
+
+  margin-right: -330px;
+  float: right;
+  margin-bottom: 380px;
+
+}
+
+.error2 {
+
+  background: #ed8181;
+
+  padding: 10px;
+  font-weight: bold;
+
+  width: 17%;
+  text-align: center;
+
+  border-radius: 5px;
+
+  margin-right: -330px;
+  float: right;
+  margin-bottom: 450px;
+
+}
