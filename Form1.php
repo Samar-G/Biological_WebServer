@@ -61,7 +61,7 @@
           <legend>Adding Sequence</legend>
           
           <a href="anemiadna&rna.php" style="text-decoration: none;">
-          <button class="btn" type="button" style="margin-left:40px ;width:140px">ADD Gene</button>
+          <button class="btn" type="button" style="margin-left:40px ;width:140px">Gene</button>
           </a>
           <a href="geneinformation.php" style="text-decoration: none;">
           <button class="btn" type="button">Gene Information</button>
